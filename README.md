@@ -3,7 +3,7 @@
 This is a Single Page Application that is created using MongoDb, ExpressJS,ReactJS and NodeJS technologies. This application is developed for the winter 2021 shopify backend developer challenge
 
 #### The application has the following features:
-1. Upload single image with a caption and a tag
+1. Upload single image jpeg with a caption and a tag
 2. Display the uploaded images, alongside stylized tags and caption
 3. search for images according to captions and tags 
 4. Authenticate user and allow logged in users to delete images which they have uploaded.
@@ -16,6 +16,7 @@ This is a Single Page Application that is created using MongoDb, ExpressJS,React
 4. Deploy on hosted app 
 5. Use better algorithm to store images being retrieved instead of mongo, to increase speed of loading images,
 or move store images to firebase or aws buckets.
+6.increase memory limit of application in order to store other types of images apart from jpegs
 
 # Instructions to run the Application
 1. Install node and npm on your local machine.
@@ -24,4 +25,5 @@ or move store images to firebase or aws buckets.
 3. Navigate into server directory and run `npm install` again.
 4. go back to shopify-image-repo directory and run `npm start`
 5. Go to browser and open http://localhost:3300 to access the application.
+6. Sign up and login to start up loading picture. A few images should be prepopulated.
 
